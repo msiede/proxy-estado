@@ -34,7 +34,7 @@ export default async function handler(req, res) {
       "Acreditación DBMS": "OK",
       "Integración Fatiga": "OK",
       "Hub Gestión Vial": "OK",
-      "Estado Sello": "ACTIVO"
+      "Estado Sello": "BLOQUEADO"
     };
     return res.status(200).json(simulated);
 
